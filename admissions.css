@@ -13,6 +13,24 @@ a {
   text-decoration: none;
 }
 
+.fa-solid {
+  font-size: 58px;
+  color: white;
+}
+
+.fa-brands {
+  font-size: 38px;
+  color: white;
+}
+
+.fa-regular {
+  font-size: 38px;
+}
+
+.fa-light {
+  font-size: 38px;
+}
+
 .copyright_text {
   text-align: center;
 }

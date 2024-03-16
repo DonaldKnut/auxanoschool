@@ -18,8 +18,8 @@ a {
 }
 
 .auxano_img {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
 }
 
 .container {
@@ -133,6 +133,25 @@ p {
   padding: 20px;
   display: block;
 }
+
+.fa-solid {
+  font-size: 58px;
+  color: white;
+}
+
+.fa-brands {
+  font-size: 38px;
+  color: white;
+}
+
+.fa-regular {
+  font-size: 38px;
+}
+
+.fa-light {
+  font-size: 38px;
+}
+
 #header .nav-list ul a::after {
   content: attr(data-after);
   position: absolute;
