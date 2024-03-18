@@ -12,6 +12,9 @@ html {
 a {
   text-decoration: none;
 }
+body {
+  background-color: #699574;
+}
 
 .fa-solid {
   font-size: 58px;
