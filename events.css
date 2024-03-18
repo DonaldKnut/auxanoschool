@@ -110,7 +110,7 @@ p {
 }
 #header .header {
   min-height: 8vh;
-  background-color: rgba(51, 105, 51, 0.24);
+  background-color: rgba(51, 105, 51, 0.649);
   transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -125,7 +125,7 @@ p {
 #header .nav-list ul {
   list-style: none;
   position: absolute;
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(36, 124, 28);
   width: 100vw;
   height: 100vh;
   left: 100%;
@@ -146,7 +146,7 @@ p {
   font-weight: 500;
   letter-spacing: 0.2rem;
   text-decoration: none;
-  color: white;
+  color: rgb(61, 255, 31);
   text-transform: uppercase;
   padding: 20px;
   display: block;

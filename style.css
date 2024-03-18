@@ -92,7 +92,7 @@ p {
 }
 #header .header {
   min-height: 8vh;
-  background-color: rgba(51, 105, 51, 0.649);
+  /* background-color: rgba(51, 105, 51, 0.649); */
   transition: 0.3s ease background-color;
 }
 #header .nav-bar {
