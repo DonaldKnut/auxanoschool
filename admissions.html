@@ -9,6 +9,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   />
+  <script src="./admissions.js" defer></script>
   </head>
   <body>
     <section id="header">
@@ -44,7 +45,7 @@
       <h2>Admissions Information</h2>
       <p>
         Welcome to our admissions page. We're thrilled that you're considering
-        Auxano Nurery and Primary School International for your child's
+        Auxano Nursery and Primary School International for your child's
         educational journey.
       </p>
 
@@ -73,23 +74,33 @@
         <li>Diversity considerations</li>
       </ul>
 
-      <h3>Tuition and Financial Aid</h3>
+      <h3>Tuition</h3>
       <p>
-        Information about tuition fees and financial aid options can be found
+        Information about tuition fees can be found
         <a href="tuition.html">here</a>.
       </p>
 
       <h3>Additional Resources</h3>
       <ul>
         <li>
-          Download our <a href="admissions_guide.pdf">Admissions Guide</a> for
+          Download our <a href="./img/Admission Guide.pdf">Admissions Guide</a> for
           detailed information about our school and admissions process.
         </li>
         <li>
-          Explore our <a href="virtual_tour.html">Virtual Tour</a> to experience
+          Explore our <a href="#" onclick="showVideo()">Virtual Tour</a> to experience
           our campus from the comfort of your home.
         </li>
       </ul>
+
+      <div id="videoModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="hideVideo()">&times;</span>
+          <video controls>
+            <source src="./img//virtual_tuor.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
 
       <h3>Contact Admissions</h3>
       <p>
