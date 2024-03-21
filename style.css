@@ -294,6 +294,26 @@ p {
 /* End Hero Section */
 
 /* Services Section */
+.service-item_item {
+  color: white;
+}
+
+.service-item01 p {
+  color: white;
+}
+
+.service-item02 p {
+  color: white;
+}
+
+.service-item03 p {
+  color: white;
+}
+
+#services {
+  filter: inherit;
+}
+
 #services .services {
   flex-direction: column;
   text-align: center;
@@ -320,13 +340,83 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(./img/celebrate.jpeg);
+  background-image: url(./img/creche.jpeg);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.service-item_wrapper {
+  background-color: #333333;
+}
+
+.services .feature_wrapper {
+  display: flex;
+}
+
+.service-bottom {
+  display: flex;
+}
+
+.service-item_ p {
+  color: white;
+}
+.service-item01 {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(./img/creche.png);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
+
+.service-item02 {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(./img/preschool.png);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.service-item03 {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(./img/Elementary.png);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.services {
+  display: flex;
+}
+
 #services .service-item::after {
   content: "";
   position: absolute;
@@ -334,7 +424,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #293c2ac4 0%, #024a0fbf 100%);
+  background-image: linear-gradient(81deg, #212f2187 0%, #060906b0 100%);
   opacity: 0.9;
   z-index: -1;
 }
@@ -559,6 +649,18 @@ p {
 #footer p {
   color: white;
   font-size: 1.3rem;
+}
+
+@media (min-width: 1108px) {
+  .service-item_item {
+    display: flex;
+  }
+}
+
+@media (min-width: 848px) {
+  .service-item_item {
+    height: 679px;
+  }
 }
 /* End Footer */
 
